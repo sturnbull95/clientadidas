@@ -1,0 +1,56 @@
+.subHeader {
+  width: 100%;
+  border-bottom: 1px solid #c8cbcc;
+  background-color: #fff;
+  font-family: AdihausDIN,Helvetica,Arial,sans-serif;
+  font-size: 15px;
+  display: block;
+  flex-direction: row;
+}
+
+.subHeaderItemsWrapper {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.subHeaderItem {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2px 10px 7px 10px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.subHeaderItem:hover {
+  text-decoration: underline;
+}
+
+.subHeaderItemGlyph {
+  display: inline-block;
+  height: 20px;
+  width: 30px;
+}
+
+.subHeaderItemImage {
+  display: inline-block;
+  height: 20px;
+  width: 20px;
+}
+
+div.subHeaderItemLabel {
+  display: inline-block;
+  text-align: left;
+  text-transform: uppercase;
+  line-height: 14px;
+  font-weight: 400;
+}
+
+.alignerItemTop {
+  align-self: flex-start;
+}
+
+.alignerItemBottom {
+  align-self: flex-end;
+}

@@ -1,0 +1,34 @@
+@font-face {
+  font-family: 'AdiNeuePro-Black';
+  src: url('https://s3-us-west-1.amazonaws.com/shoedidas-static/assets/fonts/adineuePRO-Black.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'AdiNeuePro';
+  src: url('https://s3-us-west-1.amazonaws.com/shoedidas-static/assets/fonts/adineuePRO-Regular.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'AdihausDIN';
+  src: url("https://s3-us-west-1.amazonaws.com/shoedidas-static/assets/fonts/AdihausDIN-Regular.woff2") format('woff2');
+}
+
+.navbar {
+  position: absolute;
+  top: 0;
+  z-index: 10;
+  box-sizing: border-box;
+}
+
+.headerDesktop {
+  font-family: AdihausDIN, Helvetica,Arial,sans-serif;
+  -webkit-font-smoothing: antialiased;
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: black;
+  margin: 0 auto;
+  height: 85px;
+}

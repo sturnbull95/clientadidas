@@ -11,7 +11,7 @@ class App extends React.Component {
 
     // We set the axios baseURL here so that api requests will got to the
     // right location even when we are making them from a proxy server
-    axios.defaults.baseURL = "http://localhost:3000";
+    axios.defaults.baseURL = "http://ec2-13-57-28-162.us-west-1.compute.amazonaws.com:3000";
   }
 
   render() {
